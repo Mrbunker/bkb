@@ -19,10 +19,5 @@
         "if (Test-Path \"$dir/AFFiNE-stable.exe\"){ Move-Item \"$dir/AFFiNE-stable.exe\" \"$dir/launch.exe\" }",
         "if (Test-Path \"$dir/AFFiNE.exe\"){ Move-Item \"$dir/AFFiNE.exe\" \"$dir/launch.exe\" }"
     ],
-    "shortcuts": [
-        [
-            "launch.exe",
-            "AFFiNE"
-        ]
-    ]
+    "shortcuts": [["launch.exe", "AFFiNE"]]
 }
