@@ -1,0 +1,15 @@
+{
+    "version": "1.2.7",
+    "description": "wolai",
+    "homepage": "https://www.wolai.com/",
+    "architecture": {
+        "64bit": {
+            "url": "https://static2.wolai.com/dist/installers/wolai%20Setup%201.2.7.exe#/dl.7z"
+        }
+    },
+    "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
+    "bin": "wolai.exe",
+    "shortcuts": [["wolai.exe", "wolai"]],
+    "license": "Unlicense"
+}
