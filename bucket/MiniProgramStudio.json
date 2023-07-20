@@ -1,0 +1,22 @@
+{
+    "homepage": "https://opendocs.alipay.com/mini/ide",
+    "description": "IDE for Alibaba-Group Mini-Program Development",
+    "version": "3.7.9",
+    "license": "Unknown",
+    "architecture": {
+        "64bit": {
+            "url": "https://alipay-miniapp-public.oss-cn-hangzhou.aliyuncs.com/mfupload/MiniProgramStudio-3.7.9-x64.exe#/dl.7z",
+            "hash": "sha256:5d564b66a80920b8e98b4478d63984f58a69e4783a741b3ed07386aec7bdd1f0",
+            "installer": {
+                "script": [
+                    "Remove-Item \"$dir\\*\" -Exclude \"app-64.7z\"",
+                    "Expand-7zipArchive \"$dir\\app-64.7z\" \"$dir\"",
+                    "Remove-Item \"$dir\\app-64.7z\""
+                ]
+            }
+        }
+    },
+    "extract_dir": "$PLUGINSDIR",
+    "shortcuts": [["小程序开发者工具.exe", "支付宝小程序开发者工具"]],
+    "notes": "Your Alibaba Mini-Program IDE data are storaged in '%APPDATA%\\小程序开发者工具'."
+}
