@@ -1,9 +1,9 @@
 {
-    "hash": "dd6ee189ccac49ab9a6084c29336dad03170f3a2786a79f4bcb71df50540d11f",
+    "hash": "f824af00ddf75a05bcc48a8fd0ed0e4fce38e019999a3ad238b9973ba04b12f3",
     "homepage": "https://github.com/toeverything/AFFiNE",
     "license": "Freeware",
-    "url": "https://github.com/toeverything/AFFiNE/releases/download/v0.8.0-canary.25/affine-canary-windows-x64.zip",
-    "version": "v0.8.0-canary.25",
+    "url": "https://github.com/toeverything/AFFiNE/releases/download/v0.8.0-canary.27/affine-canary-windows-x64.zip",
+    "version": "v0.8.0-canary.27",
     "checkver": {
         "url": "https://api.github.com/repos/toeverything/AFFiNE/releases?per_page=1",
         "jsonpath": "$[0].tag_name"
