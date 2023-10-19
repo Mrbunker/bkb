@@ -1,18 +1,23 @@
 {
-    "version": "0.10.0-canary.1",
+    "version": "0.8.4",
     "description": "A privacy-focussed, local-first, open-source, and ready-to-use alternative for Notion & Miro.",
     "homepage": "https://affine.pro/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
             "url": "https://github.com/toeverything/AFFiNE/releases/download/v0.10.0-canary.1/affine-canary-windows-x64.exe#/dl.7z",
-            "hash": "0E1D1458BA7BD9A935855B0F9230BA29B155FB2B740BAD4430416485312E0AFF"
+            "hash": "0e1d1458ba7bd9a935855b0f9230ba29b155fb2b740bad4430416485312e0aff"
         }
     },
     "installer": {
         "script": "Expand-7zipArchive -Path \"$dir\\AFFiNE-*-full.nupkg\" -ExtractDir 'lib\\net45' -Removal"
     },
-    "shortcuts": [["AFFiNE-canary.exe", "AFFiNE"]],
+    "shortcuts": [
+        [
+            "AFFiNE-canary.exe",
+            "AFFiNE"
+        ]
+    ],
     "checkver": {
         "github": "https://github.com/toeverything/AFFiNE"
     },
