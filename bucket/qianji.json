@@ -1,0 +1,26 @@
+{
+    "version": "405_1232",
+    "description": "",
+    "homepage": "https://qianjiapp.com",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://app.qianjiapp.com/qianji_405_1232.zip",
+            "hash": "f894b8b2b8815479c92445242e33476f454db2c6e7557b3bb05a906327b6b1d4"
+        }
+    },
+    "extract_dir": "qianji_405_1232",
+    "bin": "qianji.exe",
+    "shortcuts": [["qianji.exe", "qianji"]],
+    "checkver": {
+        "regex": "qianji_installer_(\\d+_\\d+).exe"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://app.qianjiapp.com/qianji_$version.zip"
+            }
+        },
+        "extract_dir": "qianji_$version"
+    }
+}
