@@ -13,7 +13,8 @@
     "bin": "qianji.exe",
     "shortcuts": [["qianji.exe", "qianji"]],
     "checkver": {
-        "regex": "qianji_installer_(\\d+_\\d+).exe"
+        "regex": "Version (\\d+\\.\\d+(\\.\\d+(-\\d+)?)?)</h3>",
+        "url": "https://docs.qianjiapp.com/change-log/change_log_pc.html"
     },
     "autoupdate": {
         "architecture": {
