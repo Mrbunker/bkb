@@ -1,9 +1,9 @@
 {
-    "version": "8.9.5.0",
+    "version": "8.9.5.1",
     "homepage": "https://www.douyu.com/",
     "license": "Freeware",
-    "url": "https://sta-op.douyucdn.cn/dypc-client/pkg/Douyu_Live_PC_Client/20250623155238250/DouyuLive_8.9.5.0_Server_1.1.1.4.exe#/dl.7z",
-    "hash": "649b88bcf73d9282c5c7227a3147eb36668a84b56b38416a547b994e9a6022d8",
+    "url": "https://sta-op.douyucdn.cn/dypc-client/pkg/Douyu_Live_PC_Client/20250630114950634/DouyuLive_8.9.5.1_Server_1.1.1.4.exe#/dl.7z",
+    "hash": "d235a6c8f6cb52227a76d0e08934d143d5e6f5ea6bf54407198c5905a5f79c7e",
     "extract_dir": "Client",
     "post_install": "Remove-Item \"$dir\\$version\\pctools\", \"$dir\\$version\\Update\" -Force -Recurse",
     "shortcuts": [
